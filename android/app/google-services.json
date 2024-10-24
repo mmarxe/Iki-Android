@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141292091951",
+    "project_id": "iki-flutter",
+    "storage_bucket": "iki-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141292091951:android:98156ae28b6ac737f024da",
+        "android_client_info": {
+          "package_name": "com.rarelane.ikiapp.ikiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqIY0qh2D7_QHtLpbKG0PD5RXIHRJ57RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
