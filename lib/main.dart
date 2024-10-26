@@ -49,7 +49,6 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: darkBlue,
         useMaterial3: true,
       ),
-      // home: logged_in? const Signup() : const Login(),
       initialRoute: logged_in? '/home':'/startscreen',
       routes: {
         '/signupmain' : (context) => const SignupMain(),

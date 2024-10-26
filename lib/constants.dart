@@ -57,7 +57,7 @@ List<HomeTab> tabs = [
           onPressed: () {},
           icon: Icon(
             size: 25,
-            Icons.more_vert,
+            Icons.search,
             color: Colors.white,
           )),
     navbarIcon: Icons.home,
@@ -80,7 +80,7 @@ List<HomeTab> tabs = [
           onPressed: () {},
           icon: Icon(
             size: 25,
-            Icons.more_vert,
+            Icons.search,
             color: Colors.white,
           )),
       navbarIcon: Icons.search,
@@ -103,7 +103,7 @@ List<HomeTab> tabs = [
           onPressed: () {},
           icon: Icon(
             size: 25,
-            Icons.more_vert,
+            Icons.search,
             color: Colors.white,
           )),
       navbarIcon: Icons.home,
@@ -126,7 +126,7 @@ List<HomeTab> tabs = [
           onPressed: () {},
           icon: Icon(
             size: 25,
-            Icons.more_vert,
+            Icons.search,
             color: Colors.white,
           )),
       navbarIcon: Icons.arrow_circle_right_outlined,
@@ -134,7 +134,7 @@ List<HomeTab> tabs = [
   ),
   HomeTab(
       index: 4,
-      title: "Me",
+      title: "My Account",
       leading: IconButton(
           onPressed: () {
 //Navigator.pop(context);
@@ -142,14 +142,14 @@ List<HomeTab> tabs = [
           },
           icon: const Icon(
             size: 25,
-            Icons.bookmark_border_sharp,
+            Icons.notification_important_sharp,
             color: Colors.white,
           )),
       ending: IconButton(
           onPressed: () {},
           icon: Icon(
             size: 25,
-            Icons.more_vert,
+            Icons.settings,
             color: Colors.white,
           )),
       navbarIcon: Icons.person,

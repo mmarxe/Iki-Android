@@ -1,0 +1,30 @@
+[
+  {
+    "img_path" : "assets/orientation1.png",
+    "heading_text": "Bla",
+    "main_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "img_path" : "assets/orientation1.png",
+    "heading_text": "Bla",
+    "main_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "img_path" : "assets/orientation1.png",
+    "heading_text": "Bla",
+    "main_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "img_path" : "assets/orientation1.png",
+    "heading_text": "Bla",
+    "main_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": false
+  }
+]

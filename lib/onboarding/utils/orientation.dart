@@ -68,16 +68,17 @@ class OrientationView extends StatelessWidget{
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          CircleAvatar(radius: 30,),
+          CircleAvatar(radius: 40,),
           Container(
               decoration: primaryContainerStyle,
-              width: MediaQuery.of(context).size.width * 0.8,
+              width: MediaQuery.of(context).size.width * 0.9,
+              // height: MediaQuery.sizeOf(context).height * 0.5,
               child: Image.network(
                 orData.imgurl,
                 // width: MediaQuery.of(context).size.width * 0.8,
           )),
           SizedBox(
-            width: MediaQuery.of(context).size.width * 0.8,
+            width: MediaQuery.of(context).size.width * 0.9,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(orData.txt, style: primaryTextStyle, textAlign: TextAlign.center,),
@@ -85,11 +86,12 @@ class OrientationView extends StatelessWidget{
           ),
           SizedBox(
             height: 50,
-            width: MediaQuery.of(context).size.width * 0.8,
+            width: MediaQuery.of(context).size.width * 0.9,
             child: ElevatedButton(
                 style: primaryButtonStyle,
                 onPressed: (){
                   print("Pressable");
+                  Navigator.popAndPushNamed(context, "/signupmain");
                 },
                 child: Text(orData.buttontxt, style: primaryButtonTextStyle,)
             ),

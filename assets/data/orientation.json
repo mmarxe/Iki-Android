@@ -1,0 +1,30 @@
+[
+  {
+    "icon_path": "assets/logo.png",
+    "img_path" : "assets/orientation1.png",
+    "orient_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "icon_path": "assets/logo.png",
+    "img_path" : "assets/orientation1.png",
+    "orient_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "icon_path": "assets/logo.png",
+    "img_path" : "assets/orientation1.png",
+    "orient_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": true
+  },
+  {
+    "icon_path": "assets/logo.png",
+    "img_path" : "assets/orientation1.png",
+    "orient_text" : "Hi and Welcome",
+    "button_text" : "Next",
+    "next": false
+  }
+]
