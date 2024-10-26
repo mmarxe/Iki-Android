@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ikiapp/constants.dart';
-import 'package:ikiapp/dashboard/home.dart';
 import 'package:ikiapp/onboarding/signup/confirmemail.dart';
 import 'package:ikiapp/onboarding/signup/signupmain.dart';
 import 'package:ikiapp/onboarding/utils/finishup.dart';
 import 'package:ikiapp/onboarding/utils/orientation.dart';
 import 'package:ikiapp/onboarding/signup/signup.dart';
 
+import 'home.dart';
 import 'onboarding/login/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: logged_in? const Signup() : const Login(),
-      initialRoute: logged_in? '/dashboardhome':'/startscreen',
+      initialRoute: logged_in? '/home':'/startscreen',
       routes: {
         '/signupmain' : (context) => const SignupMain(),
         '/signup': (context) => const Signup(),
@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
         '/signupconfirm' : (context) => const SignupConfirm(),
         '/signupfinish' : (context) => const SignupFinish(),
         '/startscreen' : (context) => const StartScreen(),
-        '/dashboardhome' : (context) => const DashboardHome()
+        '/home' : (context) => const Home()
       },
     );
   }
